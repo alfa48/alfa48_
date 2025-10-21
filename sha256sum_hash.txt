@@ -1,0 +1,7 @@
+Nome: momentum-2088-0.1.0.exe
+SHA256: 237ce4fd3277818e3926c9a47de74ed3fcfe7bea922c706b891801f3f16596da
+MD5, extraido da virusTotal:  877edd34c71d6b10e7bcee96a6d136ee
+Origem: /home/manuel/Downloads
+DataHora coletas: 2025-10-21T10:15:00+01:00
+Quem: alfa48
+Observações: cópia criada antes de análise estática  
