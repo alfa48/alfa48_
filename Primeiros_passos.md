@@ -22,6 +22,14 @@ virsh list --all
 virsh edit vmname
 # remova ou comente o <interface>...</interface>, salve e saia
 
+Procura texto “escondido” dentro do executável:
+strings -n 8 arquivo.exe | less
+Procura por:
+URLs
+Caminhos de diretórios (C:\Windows\System32)
+Palavras como “password”, “key”, “token”, “HTTP”, “.dll”, etc.
+
+
 
 
 
