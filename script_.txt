@@ -1,0 +1,11 @@
+r2 -A arquivo.exe       # analisa
+ executa o 
+ **radare2** (uma ferramenta avançada de engenharia reversa e análise de binários) no arquivo `arquivo.exe` com a opção `-A`, que realiza uma **análise automática** do executável. 
+ ### O que isso faz especificamente: 
+ 1. **Abre o arquivo** `arquivo.exe` no radare2. 
+ 2. **Executa análise automática** (`-A`): - Identifica funções, strings, símbolos e seções do executável. - Aplica análise estática para desmontar o código (assembly). - Tenta reconhecer padrões (como chamadas de API, estruturas de código comum). 
+ 3. **Prepara o binário para análise interativa**, permitindo que você explore o código, dados e outras informações com subcomandos do radare2. 
+
+
+r2 -qc "aaa;afl" arquivo.exe   # lista funcoes
+r2 -qc "aaa;afl" -w arquivo.exe   # abrir e escrever
